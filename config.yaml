@@ -1,0 +1,41 @@
+SCRAPED_DATA_PATH: "artifacts/data/scraped_data"
+MERGED_DATA_PATH: 'artifacts/data/merged_data/merged_data.json'
+EXPLORATORY_DATA_PATH : "artifacts/data/exploratory_data"
+TRANSFORMED_DATA_PATH : "artifacts/data/Transformed_data"
+
+TRAIN_DATA_PATH : "artifacts/data/Transformed_data/train.json"
+TEST_DATA_PATH : "artifacts/data/Transformed_data/test.json"
+DEV_DATA_PATH : "artifacts/data/Transformed_data/dev.json"
+
+SPLIT_PATH : "artifacts/data/Transformed_data/Split_data/"
+TRAIN_SPLIT_PATH : "artifacts/data/Transformed_data/Split_data/test_data.json"
+DEV_SPLIT_PATH : "artifacts/data/Transformed_data/Split_data/dev_data.json"
+
+SOURCE_URL_HIRU_LOCAL: "https://www.hirunews.lk/local-news.php?"
+SOURCE_URL_HIRU_INT: "https://www.hirunews.lk/international-news.php?"
+SOURCE_URL_HIRU_BUSINESS: "https://www.hirunews.lk/business/all-news.php?"
+SOURCE_URL_HIRU_ENT: "https://www.hirunews.lk/entertainment/all-news.php?" 
+SOURCE_URL_HIRU_SPORTS: "https://www.hirunews.lk/sports/all-news.php?"
+
+SOURCE_URL_LANKADEEPA : "https://www.lankadeepa.lk/latest-news/1"
+
+SOURCE_URL_DERENA_local : "https://sinhala.adaderana.lk/sinhala-hot-news.php?"
+SOURCE_URL_DERENA_SPORTS : "https://sinhala.adaderana.lk/other-news.php?sid=39"
+SOURCE_URL_DERENA_INT : "https://sinhala.adaderana.lk/other-news.php?sid=43"
+
+SOURCE_URL_ADA_LOCAL : "https://www.ada.lk/latest-news/11"
+SOURCE_URL_ADA_SPORTS : "https://www.ada.lk/sports/9"
+SOURCE_URL_ADA_INT : "https://www.ada.lk/international/3"
+SOURCE_URL_ADA_BUSINESS : "https://www.ada.lk/business/7"
+
+SOURCE_URL_DIVAINA_SPORTS : "https://divaina.lk/category/sports/"
+SOURCE_URL_DIVAINA_BUSINESS : "https://divaina.lk/category/ganudenu-lowa/"
+SOURCE_URL_DIVAINA_INT : "https://divaina.lk/category/%e0%b7%80%e0%b7%92%e0%b6%af%e0%b7%99%e0%b7%83%e0%b7%8a-%e0%b6%b4%e0%b7%94%e0%b7%80%e0%b6%ad%e0%b7%8a/"
+
+TITLES_FILE_PATH : "artifacts/wiki_info/wikipedia_sinhala_titles.json"
+FILE_PATH_SINHALA_WIKI_DATA : "artifacts/wiki_info/wiki_data_file.gz"
+SCRAPED_WIKI_DATA_PATH : "artifacts/data/scraped_data/wiki/scraped_wikipedia_articles.json"
+
+NER_CORPUS_PATH : "artifacts/NER/partition_1.tsv"
+STOP_WORDS_CORPUS_PATH : "artifacts/stop_words/stop words.txt"
+NOTOSANS_FONT_PATH : "artifacts/NotoSansSinhala-hinted/NotoSansSinhala-Medium.ttf"
